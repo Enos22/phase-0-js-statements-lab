@@ -2,9 +2,9 @@
 // const timeOfDay = "morning";
 // let soilMoisture = 30;
 
-temperature = 90;
-timeOfDay = "morning";
-soilMoisture = 0;
+let temperature = 90;
+let timeOfDay = "morning";
+let soilMoisture = 0;
 
 //using if-else to check temperature
 
@@ -14,7 +14,7 @@ if (temperature > 80){
     console.log("Watering off");
 }
 //use if-else to check time of day
-if (timeOfDay === "evening or night"){
+if (timeOfDay == "evening or night"){
     console.log("lights on");
 }//else if (timeOfDay === "night"){
  //   console.log("Lights on");
